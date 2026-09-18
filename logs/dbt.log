@@ -1,0 +1,37 @@
+==================== 2026-09-18T13:30:09.229144Z | 01a0b4b5-cfc9-7971-9201-198b296765cc ====================
+13:30:09.229387 [info ]: dbt-fusion 2.0.0-preview.218
+13:30:09.229761 [info ]: Started loading project
+13:30:09.233275 [info ]: Loading profiles.yml
+13:30:09.233818 [info ]: Finished loading project [  0.00s]
+13:30:09.233937 [info ]: Started debugging
+13:30:09.234016 [info ]: Debugging profile: dev
+13:30:09.234111 [info ]: Debugging dbt version: 2.0.0-preview.218
+13:30:09.234206 [info ]: Debugging platform: windows x86_64 (windows)
+13:30:09.234316 [info ]: Debugging adapter type: snowflake (remote)
+13:30:09.288885 [info ]: Debugging dependencies:
+  git: OK
+13:30:09.289141 [info ]: Debugging connection:
+  "account": "gsxdvrv-st80493",
+  "user": "dbt",
+  "database": "AIRBNB",
+  "warehouse": "COMPUTE_WH",
+  "schema": "DEV",
+  "role": "TRANSFORM"
+13:30:09.289455 [debug]: Snowflake driver resolved: snowflake 0.21.0.dev+dbt0.21.17
+13:30:09.962061 [debug]: borrow_tlocal_connection() took 672.7092ms
+13:30:09.963588 [debug]: create_debug_span(...).entered() took 28.2µs
+13:30:10.200385 [debug]: stmt.execute() (submit+wait_for_completion, returns reader) took 236.6724ms
+13:30:10.200412 [debug]: reader.schema() took 3µs
+13:30:10.201571 [debug]: do_execute(conn) (closure: stmt.execute + schema + batch loop) took 237.9641ms
+13:30:10.201644 [debug]: concat_batches + normalize_result_column_names took 58.6µs
+13:30:10.201660 [debug]: record_current_span_status_from_attrs took 9.6µs
+13:30:10.201673 [debug]: Query executed on node unknown:
+select 1 as id
+13:30:10.201695 [debug]: drop(query_span_guard) (span exit/export) took 29.5µs
+13:30:10.201818 [debug]: adapter.execute() (full call, incl. adbc_execute_with_options) took 239.7365ms
+13:30:10.201858 [info ]: Debugging connection test: OK
+13:30:10.202162 [info ]: Debugged All checks passed!
+13:30:10.202406 [info ]: Finished debugging [  0.97s]
+13:30:10.410356 [info ]: 
+==================== Execution Summary =====================
+Finished 'debug' successfully for target 'dev' [1.2s]

@@ -1,0 +1,155 @@
+==================== 2026-09-18T13:24:26.186106Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-09-18T13:24:26.186533Z | c950b892-e757-4094-ab97-912cfbfdc9ec ====================
+13:24:26.186577 [info ]: Starting dbt LSP server
+13:24:26.186632 [info ]: Connecting to LSP client on port 8000
+13:24:26.189892 [info ]: Successfully connected to LSP client
+13:24:26.189932 [info ]: Creating LSP service...
+13:24:26.191331 [info ]: Creating LSP server...
+13:24:26.191341 [info ]: Starting LSP server...
+==================== 2026-09-18T13:25:53.551475Z | 7de51d31-60f6-44fc-b7ac-1682c8b3b8b9 ====================
+13:25:53.551645 [info ]: Started loading project
+13:25:53.551984 [info ]: Finished loading project [  0.00s]
+13:25:53.552112 [error]: [InvalidConfig (dbt1005)]: No profile specified in dbt_project.yml
+13:25:53.552222 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 error [747us]
+==================== 2026-09-18T13:26:52.748814Z | 4e0c10b8-83fc-4cb5-87a0-527159bbd3ef ====================
+13:26:52.748871 [info ]: Started loading project
+13:26:52.749926 [info ]: Loading profiles.yml
+13:26:52.750316 [error]: [IoError (dbt1001)]: Profile 'my_project' not found in profiles.yml
+  --> dbt_project.yml:5:10
+13:26:52.750469 [info ]: Finished loading project [  0.00s]
+13:26:52.750487 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 error [1ms]
+13:26:54.817888 [info ]: Loading profiles.yml
+13:26:57.902133 [info ]: Loading profiles.yml
+==================== 2026-09-18T13:27:27.646280Z | d6631036-7d13-42ca-a67d-6955ab5f6a3a ====================
+13:27:27.646355 [info ]: Started loading project
+13:27:27.646724 [info ]: Finished loading project [  0.00s]
+13:27:27.646762 [error]: [InvalidConfig (dbt1005)]: no profiles.yml found (searched: ["c:\\Users\\rdiesveld\\OneDrive - ilionx Group BV\\Documenten\\dbt\\my_project\\profiles.yml", "C:\\Users\\rdiesveld\\.dbt\\profiles.yml"]). Run `dbt init` to create one
+13:27:27.646792 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 error [511us]
+13:27:36.761064 [info ]: Loading profiles.yml
+==================== 2026-09-18T13:27:37.259076Z | 565ac1a8-04f5-4474-bf35-64b9d4cb3777 ====================
+13:27:37.259145 [info ]: Started loading project
+13:27:37.259563 [info ]: Loading profiles.yml
+13:27:37.259878 [error]: [IoError (dbt1001)]: Profile 'my_project' not found in profiles.yml
+  --> dbt_project.yml:5:10
+13:27:37.259991 [info ]: Finished loading project [  0.00s]
+13:27:37.260012 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 error [936us]
+==================== 2026-09-18T13:27:48.221870Z | 654d0e08-0d15-4fca-a812-2d41511cf47e ====================
+13:27:48.221952 [info ]: Started loading project
+13:27:48.222776 [info ]: Loading profiles.yml
+13:27:48.223407 [error]: [IoError (dbt1001)]: Profile 'my_project' not found in profiles.yml
+  --> dbt_project.yml:5:10
+13:27:48.223549 [info ]: Finished loading project [  0.00s]
+13:27:48.223564 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 error [1ms]
+==================== 2026-09-18T13:27:48.583846Z | 8fb93802-3b51-41f9-9d23-43c196bb3e99 ====================
+13:27:48.583927 [info ]: Started loading project
+13:27:48.584381 [info ]: Loading profiles.yml
+13:27:48.584711 [error]: [IoError (dbt1001)]: Profile 'my_project' not found in profiles.yml
+  --> dbt_project.yml:5:10
+13:27:48.584801 [info ]: Finished loading project [  0.00s]
+13:27:48.584816 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 error [969us]
+13:27:51.133150 [info ]: Loading profiles.yml
+13:27:51.591802 [info ]: Loading profiles.yml
+==================== 2026-09-18T13:27:51.847845Z | 4dc8aea0-2e8f-453f-bed4-caa01914b532 ====================
+13:27:51.847910 [info ]: Started loading project
+13:27:51.848396 [info ]: Loading profiles.yml
+13:27:51.848717 [error]: [IoError (dbt1001)]: Profile 'my_project' not found in profiles.yml
+  --> dbt_project.yml:5:10
+13:27:51.848852 [info ]: Finished loading project [  0.00s]
+13:27:51.848869 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 error [1ms]
+13:28:15.685065 [info ]: Loading profiles.yml
+13:28:22.826470 [info ]: Loading profiles.yml
+==================== 2026-09-18T13:28:36.491932Z | 7fd71817-1475-4d97-88f2-8cd64d3c1c3c ====================
+13:28:36.492037 [info ]: Started loading project
+13:28:36.492668 [info ]: Loading profiles.yml
+13:28:36.501660 [debug]:    Started loading packages
+13:28:36.505332 [debug]:     Loaded [  0.00s] packages
+13:28:36.506429 [info ]: Finished loading project [  0.01s]
+13:28:36.506889 [info ]: Started parsing
+13:28:36.635035 [warn ]: [UnusedResourceConfigPath (dbt1097)]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_project
+13:28:36.635812 [info ]: Finished parsing [  0.13s]
+13:28:36.636103 [info ]: Cached model count updated: 0 models (estimate)
+13:28:36.636113 [info ]: Cached model count updated: 0 models (accurate)
+13:28:36.636163 [info ]: Started scheduling
+13:28:36.636272 [info ]: Finished scheduling [  0.00s]
+13:28:36.636305 [debug]: Compilation - 0 nodes selected: {}
+13:28:36.636351 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+13:28:36.636362 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+13:28:36.636380 [info ]: Started scheduling
+13:28:36.636393 [info ]: Finished scheduling [  0.00s]
+13:28:36.637952 [info ]: Started building task graph
+13:28:36.638017 [info ]: Finished building task graph [  0.00s]
+13:28:36.644241 [info ]: Started scheduling
+13:28:36.644272 [info ]: Finished scheduling [  0.00s]
+13:28:36.644407 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 3 warnings for target 'dev' [152ms]
+13:28:36.644514 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-18T13:28:37.010989Z | d2528e57-baba-46ec-9497-a5b69adecbff ====================
+13:28:37.011071 [info ]: Started loading project
+13:28:37.011766 [info ]: Loading profiles.yml
+13:28:37.040982 [info ]: Cached model count updated: 0 models (accurate)
+13:28:37.040983 [info ]: Finished loading project [  0.03s]
+13:28:37.041030 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [30ms]
+==================== 2026-09-18T13:28:38.665060Z | 642c2765-1ce2-4163-b4f1-339f4b3a3b5b ====================
+13:28:38.665156 [info ]: Started loading project
+13:28:38.665637 [info ]: Loading profiles.yml
+13:28:38.685792 [info ]: Cached model count updated: 0 models (estimate)
+13:28:38.685823 [info ]: Cached model count updated: 0 models (accurate)
+13:28:38.685842 [info ]: Started scheduling
+13:28:38.685867 [info ]: Finished scheduling [  0.00s]
+13:28:38.685882 [debug]: Compilation - 0 nodes selected: {}
+13:28:38.685913 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+13:28:38.687457 [info ]: Started building task graph
+13:28:38.687475 [info ]: Finished building task graph [  0.00s]
+13:28:38.691739 [info ]: Started scheduling
+13:28:38.691765 [info ]: Finished scheduling [  0.00s]
+13:28:38.691860 [info ]: Cached model count updated: 0 models (accurate)
+13:28:38.691994 [info ]: Finished loading project [  0.03s]
+13:28:38.692011 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'dev' [26ms]
+==================== 2026-09-18T13:28:40.862513Z | f7cd6539-e1d8-440c-90f0-78d654b84033 ====================
+13:28:40.862590 [info ]: Started loading project
+13:28:40.863021 [info ]: Loading profiles.yml
+13:28:40.884387 [info ]: Cached model count updated: 0 models (accurate)
+13:28:40.884399 [info ]: Finished loading project [  0.02s]
+13:28:40.884416 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [21ms]
+==================== 2026-09-18T13:28:42.516649Z | 30994110-406e-4f7f-a8fb-3aebd90d7595 ====================
+13:28:42.516724 [info ]: Started loading project
+13:28:42.517155 [info ]: Loading profiles.yml
+13:28:42.536822 [info ]: Cached model count updated: 0 models (estimate)
+13:28:42.536845 [info ]: Cached model count updated: 0 models (accurate)
+13:28:42.536860 [info ]: Started scheduling
+13:28:42.536884 [info ]: Finished scheduling [  0.00s]
+13:28:42.536897 [debug]: Compilation - 0 nodes selected: {}
+13:28:42.536911 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+13:28:42.537734 [info ]: Started building task graph
+13:28:42.537751 [info ]: Finished building task graph [  0.00s]
+13:28:42.541716 [info ]: Started scheduling
+13:28:42.541738 [info ]: Finished scheduling [  0.00s]
+13:28:42.541801 [info ]: Cached model count updated: 0 models (accurate)
+13:28:42.541916 [info ]: Finished loading project [  0.03s]
+13:28:42.541931 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'dev' [25ms]
+13:28:52.279916 [info ]: Loading profiles.yml
