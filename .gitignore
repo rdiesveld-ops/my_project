@@ -5,3 +5,4 @@ logs/
 __pycache__/
 *.pyc
 .env
+dbt_internal_packages/

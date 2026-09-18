@@ -35,3 +35,7 @@ select 1 as id
 13:30:10.410356 [info ]: 
 ==================== Execution Summary =====================
 Finished 'debug' successfully for target 'dev' [1.2s]
+==================== 2026-09-18T14:01:43.818408Z | 01a0b4d2-b887-7861-bf7e-5f2a7aec92ed ====================
+14:01:44.453751 [info ]: 
+==================== Execution Summary =====================
+Finished 'internal' successfully [635ms]
